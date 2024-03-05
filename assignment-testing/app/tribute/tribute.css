@@ -1,0 +1,37 @@
+.container {
+  background-color: #e5e5fd;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 10px solid gray;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.image_container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_container > img {
+  width: 300px;
+  height: 320px;
+}
+.top_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.top_section > div > h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.top_section > div > h3 {
+  font-weight: 800;
+}
