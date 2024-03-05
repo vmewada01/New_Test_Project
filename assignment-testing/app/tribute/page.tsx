@@ -11,7 +11,7 @@ export default function page() {
                 alt="tribute"
               />
             </div>
-            <div>
+            <div className="mb-5">
               <h1>Nature Picture</h1>
               <h3>Captured for Wildlife</h3>
             </div>
